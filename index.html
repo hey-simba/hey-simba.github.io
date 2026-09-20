@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import a nice font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="about" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Simba</h1>
+            <p>Welcome to my personal corner of the web. I build things, write code, and love learning new technologies.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="grid">
+                
+                <!-- Project 1 -->
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Project One</h3>
+                        <p>A brief description of your first project. Explain what it does and the tech stack you used.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/hey-simba/project-one" target="_blank" class="link-btn github-btn">GitHub</a>
+                            <a href="https://your-live-demo-link.com" target="_blank" class="link-btn live-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Project Two</h3>
+                        <p>A brief description of your second project. Explain what it does and the tech stack you used.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/hey-simba/project-two" target="_blank" class="link-btn github-btn">GitHub</a>
+                            <a href="https://your-live-demo-link.com" target="_blank" class="link-btn live-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards here as needed -->
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Certificates & Achievements</h2>
+            <div class="grid">
+                
+                <!-- Certificate 1 -->
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Awesome Certificate Name</h3>
+                        <p class="issuer">Issued by: Google</p>
+                        <p>Completed a comprehensive course on web development.</p>
+                        <div class="card-links">
+                            <a href="https://credential.net/..." target="_blank" class="link-btn cert-btn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Another Great Certificate</h3>
+                        <p class="issuer">Issued by: Coursera</p>
+                        <p>Completed a course focusing on React and modern JS.</p>
+                        <div class="card-links">
+                            <a href="https://coursera.org/verify/..." target="_blank" class="link-btn cert-btn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container text-center">
+            <h2>Let's Connect</h2>
+            <p>Feel free to reach out to me for collaborations or just a friendly chat.</p>
+            <div class="social-links">
+                <a href="https://github.com/hey-simba" target="_blank">GitHub</a>
+                <a href="mailto:your.email@example.com">Email Me</a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Simba. Built with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
