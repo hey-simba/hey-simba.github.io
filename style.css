@@ -163,6 +163,17 @@ p {
 .card h3 {
     font-size: 1.5rem;
     color: var(--text-main);
+    display: flex;
+    align-items: center;
+}
+
+.euro-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #facc15; /* A yellow/gold dot */
+    border-radius: 50%;
+    margin-left: 10px;
 }
 
 .card .issuer {
